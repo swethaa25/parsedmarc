@@ -4271,7 +4271,7 @@
         "type": "datasource"
       },
       {
-        "allValue": "regex",
+        "allFormat": "regex",
         "current": {
           "selected": false,
           "text": "All",
