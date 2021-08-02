@@ -4271,7 +4271,7 @@
         "type": "datasource"
       },
       {
-        "allFormat": "regex",
+        "allFormat": "wildcard",
         "current": {
           "selected": false,
           "text": "All",
