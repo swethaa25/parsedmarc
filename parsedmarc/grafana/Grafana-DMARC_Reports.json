@@ -4275,7 +4275,7 @@
         "current": {
           "selected": false,
           "text": "All",
-          "value": "$__all"
+          "value": "All"
         },
         "datasource": "$datasourceag",
         "definition": "{\"find\":\"terms\",\"field\":\"header_from.keyword\"}",
