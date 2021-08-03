@@ -4271,7 +4271,7 @@
         "type": "datasource"
       },
       {
-        "allFormat": "regex",
+        "allValue": null,
         "current": {
           "selected": false,
           "text": "All",
@@ -4286,9 +4286,10 @@
         "multi": true,
         "name": "fromdomain",
         "options": [],
+        "definition": "{\"find\":\"terms\",\"field\":\"header_from.keyword\"}",
         "query": "{\"find\":\"terms\",\"field\":\"header_from.keyword\"}",
         "refresh": 2,
-        "regex": "",
+        "regex": "/(*).([a-zA-Z0-9\.]+[.com])/",
         "skipUrlSync": false,
         "sort": 5,
         "tagValuesQuery": "",
