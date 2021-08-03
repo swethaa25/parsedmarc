@@ -4286,6 +4286,7 @@
         "multi": true,
         "name": "fromdomain",
         "options": [],
+        "query": "{\"find\":\"terms\",\"field\":\"header_from.keyword\"}",
         "refresh": 2,
         "regex": "",
         "skipUrlSync": false,
