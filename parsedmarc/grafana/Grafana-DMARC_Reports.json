@@ -4289,7 +4289,7 @@
         "definition": "{\"find\":\"terms\",\"field\":\"header_from.keyword\"}",
         "query": "{\"find\":\"terms\",\"field\":\"header_from.keyword\"}",
         "refresh": 2,
-        "regex": "/(*).([a-zA-Z0-9\.]+[.com])/",
+        "regex": "([a-zA-Z0-9])*.([a-zA-Z0-9.]+[.com])",
         "skipUrlSync": false,
         "sort": 5,
         "tagValuesQuery": "",
